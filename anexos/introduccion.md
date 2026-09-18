@@ -42,15 +42,110 @@ Permite que objetos de diferentes clases respondan de manera particular a una mi
 El MVP incluye la gestión básica de pedidos, la comunicación con cocina, la visualización del estado, la actualización de órdenes activas, la cancelación, la identificación para retiro y el registro del pago. Se prioriza una solución simple, funcional y rápida de implementar en el tiempo disponible.
 
 ## 5. Casos de uso principales
-Los cinco casos de uso principales se documentan con actores, flujo, precondiciones y postcondiciones:
 
-1. CU1 - Tomar Pedido: registrar el pedido, calcular su total y enviarlo a cocina.
-2. CU2 - Modificar Pedido: actualizar un pedido mientras permanece en estado Recibido.
-3. CU3 - Cambiar Estado del Pedido: gestionar las transiciones Recibido, En preparación y Listo.
-4. CU4 - Cancelar Pedido: cancelar el pedido conservando su historial.
-5. CU5 - Entregar Pedido: identificar y marcar como Entregado un pedido listo.
+### CU1 – Tomar Pedido
+**Actor(es):** Usuario de mostrador
 
-El desarrollo detallado se conserva en [casos_de_uso.md](../modelador%20de%20caso%20de%20uso/casos_de_uso.md).
+**Descripción breve:** El usuario registra un pedido con productos, cantidades y personalizaciones; el sistema calcula el total y lo envía automáticamente a cocina.
+
+**Flujo principal de eventos:**
+1. El usuario inicia un nuevo pedido en el sistema.
+2. El sistema genera un número de pedido y solicita una referencia de retiro.
+3. El usuario agrega productos o combos con sus cantidades y personalizaciones.
+4. El sistema calcula el precio de cada ítem y el total del pedido.
+5. El usuario confirma el pedido.
+6. El sistema fija el estado como Recibido y envía la comanda a cocina.
+
+**Precondiciones:**
+- El local está operativo.
+- El usuario está autenticado.
+
+**Postcondiciones:**
+- El pedido queda registrado con un número único, lista de ítems, total y estado Recibido.
+- Cocina recibe la comanda sin intervención manual adicional.
+
+### CU2 – Modificar Pedido
+**Actor(es):** Usuario de mostrador
+
+**Descripción breve:** El usuario corrige un pedido ya tomado, agregando, quitando o cambiando ítems o personalizaciones, siempre que cocina todavía no haya comenzado a prepararlo.
+
+**Flujo principal de eventos:**
+1. El usuario selecciona un pedido existente.
+2. El sistema valida que el pedido esté en estado Recibido.
+3. El usuario modifica ítems y/o personalizaciones.
+4. El sistema recalcula el total del pedido.
+5. Si ya existe un pago registrado, se registra la diferencia a cobrar.
+6. El sistema conserva el mismo número de pedido.
+
+**Precondiciones:**
+- El pedido existe.
+- El pedido está en estado Recibido.
+
+**Postcondiciones:**
+- El pedido queda actualizado con el total recalculado.
+- El pedido en estado En preparación o posterior rechaza cualquier intento de modificación.
+
+### CU3 – Cambiar Estado del Pedido
+**Actor(es):** Cocina
+
+**Descripción breve:** Cocina informa el avance del pedido y el sistema actualiza el estado respetando las transiciones válidas del ciclo de vida.
+
+**Flujo principal de eventos:**
+1. Cocina consulta la lista de pedidos pendientes.
+2. Cocina indica que un pedido empezó a prepararse.
+3. El sistema valida la transición Recibido → En preparación.
+4. Cocina marca el pedido como terminado.
+5. El sistema valida la transición En preparación → Listo.
+6. El sistema bloquea modificaciones a partir de ese punto.
+
+**Precondiciones:**
+- El pedido existe.
+- La transición solicitada es válida.
+
+**Postcondiciones:**
+- El pedido queda en un único estado consistente y visible para todo el negocio.
+
+### CU4 – Cancelar Pedido
+**Actor(es):** Usuario de mostrador, Encargado
+
+**Descripción breve:** El pedido se cancela sin eliminar su registro histórico.
+
+**Flujo principal de eventos:**
+1. El usuario selecciona el pedido a cancelar.
+2. El sistema verifica el estado actual.
+3. Si el pedido está en Recibido o En preparación, la cancelación se autoriza directamente.
+4. Si el pedido está en Listo, requiere la autorización del encargado.
+5. El sistema cambia el estado a Cancelado.
+6. El sistema conserva el registro para auditoría.
+
+**Precondiciones:**
+- El pedido no debe estar Entregado.
+
+**Postcondiciones:**
+- El pedido queda en estado Cancelado.
+- El pedido no vuelve a estado activo ni de preparación.
+
+### CU5 – Entregar Pedido
+**Actor(es):** Usuario de mostrador
+
+**Descripción breve:** El usuario identifica el pedido por número o nombre de retiro y lo entrega al cliente, marcando la operación como finalizada.
+
+**Flujo principal de eventos:**
+1. El cliente se presenta en el mostrador.
+2. El usuario busca el pedido por número o referencia de retiro.
+3. El sistema confirma que el pedido está Listo.
+4. El usuario entrega el pedido físicamente.
+5. El sistema marca el pedido como Entregado.
+
+**Precondiciones:**
+- El pedido existe.
+- El estado actual es Listo.
+
+**Postcondiciones:**
+- El pedido queda en estado Entregado de forma definitiva.
+- El pedido ya no admite modificación ni cancelación.
+
+> El detalle ampliado (actores, reglas de negocio y modelo de clases derivado) se conserva en [casos_de_uso.md](../modelador%20de%20caso%20de%20uso/casos_de_uso.md).
 
 ## 6. Regla de negocio central
 Un pedido solo puede cambiar de estado siguiendo una secuencia válida:
