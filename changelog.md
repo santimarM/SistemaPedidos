@@ -31,6 +31,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [fix/rc17-rc21-changelog] Corrección del formato del changelog según RC17 y registro de correcciones pendientes según RC21.  
   PR: [#24](https://github.com/santimarM/SistemaPedidos/pull/24) - @neith18 (Diseñadora de Tarjetas CRC)
+
+  - [fix/rc19-modelo-dominio] Actualización de la descripción del modelo de dominio según RC19.  
+  PR: [#25](https://github.com/santimarM/SistemaPedidos/pull/25) - @neith18 (Diseñadora de Tarjetas CRC)
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
