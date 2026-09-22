@@ -11,7 +11,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#14](https://github.com/fernandodanielm/SistemaPedidos/pull/14) - Lautaro Chumacero (Analista de requerimientos)
 
 - [feature/modelador-de-casos-de-uso] Casos de uso principales.  
-  PR: Pendiente de registrar - Santiago Medel (Modelador de casos de uso)
+  PR: [#10](https://github.com/fernandodanielm/SistemaPedidos/pull/10) - Santiago Medel (Modelador de casos de uso) - Issue: [#9](https://github.com/fernandodanielm/SistemaPedidos/issues/9)
 
 - [feature/diseñador-de-clases-iniciales] Boceto inicial de clases.  
   PR: [#6](https://github.com/fernandodanielm/SistemaPedidos/pull/6) - Sebastian Benitez (Diseñador de clases iniciales)
@@ -43,6 +43,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [fix/rc11-eliminar-config-cline] Eliminación del archivo de configuración de Cline según RC11.  
   PR: [#27](https://github.com/santimarM/SistemaPedidos/pull/27) - @neith18 (Diseñadora de Clases Iniciales)
+
+- [fix/modelador-casos-de-uso-introduccion] Registro completo de los 5 casos de uso (CU1-CU5) en anexos/introduccion.md y actualización del link a Issue/PR de Modelador de Casos de Uso en el changelog, según RC4-RC6.  
+  PR: [#21](https://github.com/santimarM/SistemaPedidos/pull/21) - @santimarM (Modelador de Casos de Uso)
 
 ---
 
