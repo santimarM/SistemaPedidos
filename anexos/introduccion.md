@@ -61,7 +61,12 @@ Un pedido solo puede cambiar de estado siguiendo una secuencia válida:
 - Entregado → no modificable ni cancelable
 
 ## 7. Modelo de dominio inicial
-El modelo inicial contempla Usuario, Pedido, ItemPedido, Producto, Combo, Personalizacion, Comanda, Pago, RegistroAuditoria y EstadoPedido, junto con sus relaciones y enumeraciones de estado. La fuente editable está en [01-boceto-inicial.excalidraw](../diagramas/01-diagrama-clases/01-boceto-inicial.excalidraw).
+
+El modelo inicial contempla Usuario, Pedido, ItemPedido, Producto, Combo, Personalizacion, Comanda, Pago, RegistroAuditoria y EstadoPedido, junto con sus relaciones y enumeraciones de estado.
+
+![Boceto inicial de clases](../diagramas/01-diagrama-clases/01-boceto-inicial.png)
+
+La fuente editable está en [01-boceto-inicial.excalidraw](../diagramas/01-diagrama-clases/01-boceto-inicial.excalidraw).
 
 ## 8. Arquitectura sugerida
 Se recomienda una separación por capas:
