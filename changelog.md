@@ -30,7 +30,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#23](https://github.com/santimarM/SistemaPedidos/pull/23) - @neith18 (Diseñadora de Tarjetas CRC)
 
 - [fix/rc17-rc21-changelog] Corrección del formato del changelog según RC17 y registro de correcciones pendientes según RC21.  
-  PR: Pendiente de registrar - @neith18 (Diseñadora de Tarjetas CRC)
+  PR: [#24](https://github.com/santimarM/SistemaPedidos/pull/24) - @neith18 (Diseñadora de Tarjetas CRC)
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
