@@ -41,6 +41,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [fix/rc22-rc25-documentacion] Corrección de documentación según RC22-RC25.  
   PR: [#26](https://github.com/santimarM/SistemaPedidos/pull/26) - @neith18 (Diseñadora de Clases Iniciales)
 
+- [fix/rc11-eliminar-config-cline] Eliminación del archivo de configuración de Cline según RC11.  
+  PR: [#27](https://github.com/santimarM/SistemaPedidos/pull/27) - @neith18 (Diseñadora de Clases Iniciales)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
