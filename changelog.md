@@ -63,7 +63,7 @@ _Sin cambios pendientes de registrar. Todos los aportes de la Actividad Obligato
   PR: [#37](https://github.com/santimarM/SistemaPedidos/pull/37) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc33-rc34-eliminar-duplicados] Se eliminan `modelador de caso de uso/casos_de_uso.md` y `analisis-de-requerimientos.md` (no eran entregables solicitados y duplicaban contenido ya consolidado en `anexos/introduccion.md`), y se corrigen sus referencias en README.md y anexos/anexos.md, según RC33-RC34.  
-  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
+  PR: [#36](https://github.com/santimarM/SistemaPedidos/pull/36) - @santimarM (Documentador y Coordinador)
 
 ---
 
