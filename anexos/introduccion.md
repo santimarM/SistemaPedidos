@@ -145,8 +145,6 @@ El MVP incluye la gestión básica de pedidos, la comunicación con cocina, la v
 - El pedido queda en estado Entregado de forma definitiva.
 - El pedido ya no admite modificación ni cancelación.
 
-> El detalle ampliado (actores, reglas de negocio y modelo de clases derivado) se conserva en [casos_de_uso.md](../modelador%20de%20caso%20de%20uso/casos_de_uso.md).
-
 ## 6. Regla de negocio central
 Un pedido solo puede cambiar de estado siguiendo una secuencia válida:
 - Recibido → En preparación → Listo → Entregado
