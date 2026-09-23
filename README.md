@@ -87,9 +87,7 @@ El ciclo de vida del pedido debe seguir una secuencia válida:
 
 ## 11. Modelo de dominio
 Las entidades principales del sistema son:
-- Local
 - Usuario
-- Cliente
 - Pedido
 - ItemPedido
 - Producto
@@ -108,7 +106,6 @@ Se recomienda una arquitectura orientada a objetos con separación de responsabi
 - Capa de presentación: interfaz para mostrador y cocina.
 
 ## 13. Clases principales
-- Local: representa cada punto de venta.
 - Usuario: opera el sistema.
 - Pedido: encapsula el detalle del pedido y su estado.
 - ItemPedido: combina producto, cantidad y personalizaciones.
@@ -159,7 +156,7 @@ La matrícula de cada integrante debe completarse con los datos oficiales de la 
 ## 17. Diagramas y documentación relacionada
 - [Anexos e introducción](anexos/introduccion.md)
 - [Casos de uso](modelador%20de%20caso%20de%20uso/casos_de_uso.md)
-- [Boceto inicial de clases](diagramas/01-diagrama-clases/01-boceto_inicial_clases.png)
+- [Boceto inicial de clases](diagramas/01-diagrama-clases/01-boceto-inicial.png)
 
 ## 18. Conclusión
 El MVP propuesto para Sabor Kiosco responde a una necesidad concreta del negocio: mejorar la gestión de pedidos, reducir errores operativos y proporcionar una base sólida para la expansión futura del sistema. El enfoque del proyecto apunta a una solución simple, funcional, trazable y fácilmente adaptable a nuevos locales o nuevas funcionalidades.
