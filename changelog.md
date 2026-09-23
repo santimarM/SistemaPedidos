@@ -8,9 +8,6 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 _Sin cambios pendientes de registrar. Todos los aportes de la Actividad Obligatoria N°1 quedaron integrados y trazados en la sección [Release Actividad Obligatoria N°1] de abajo, para evitar mantener dos listados idénticos (ver RC31)._
 
-- [fix/rc35-rc36-templates-completos] Se completan `feature-template.md` y `release-template.md` con todos los campos exigidos por la consigna (datos del estudiante, rama, archivos, Issues, checklist, comentarios, integrantes, entregables, comunicación en Slack, LGTM y prohibición de merge directo a master), según RC35-RC36.  
-  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
-
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
@@ -63,6 +60,9 @@ _Sin cambios pendientes de registrar. Todos los aportes de la Actividad Obligato
   PR: [#34](https://github.com/santimarM/SistemaPedidos/pull/34) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc35-rc36-templates-completos] Se completan los templates de PR feature y release con todos los campos exigidos por la consigna, según RC35-RC36.  
+  PR: [#37](https://github.com/santimarM/SistemaPedidos/pull/37) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc33-rc34-eliminar-duplicados] Se eliminan `modelador de caso de uso/casos_de_uso.md` y `analisis-de-requerimientos.md` (no eran entregables solicitados y duplicaban contenido ya consolidado en `anexos/introduccion.md`), y se corrigen sus referencias en README.md y anexos/anexos.md, según RC33-RC34.  
   PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
 
 ---

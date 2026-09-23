@@ -155,7 +155,6 @@ La matrícula de cada integrante debe completarse con los datos oficiales de la 
 
 ## 17. Diagramas y documentación relacionada
 - [Anexos e introducción](anexos/introduccion.md)
-- [Casos de uso](modelador%20de%20caso%20de%20uso/casos_de_uso.md)
 - [Boceto inicial de clases](diagramas/01-diagrama-clases/01-boceto-inicial.png)
 
 ## 18. Conclusión
