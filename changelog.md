@@ -48,7 +48,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#21](https://github.com/santimarM/SistemaPedidos/pull/21) - @santimarM (Modelador de Casos de Uso)
 
 - [fix/rc27-rc29-readme-changelog] Se quitan `Local` y `Cliente` del modelo de dominio en README.md (fuera de alcance del MVP), se corrige el enlace roto al boceto de clases y se traslada el registro de esta sección a [Release Actividad Obligatoria N°1], según RC27-RC29.  
-  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
+  PR: [#32](https://github.com/santimarM/SistemaPedidos/pull/32) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc15-documentador-code-reviews] Se documentan en `ia/a2/documentador-coordinador.md` 2 code reviews asistidas con IA sobre los fixes RC7-RC10, RC19 y RC22-RC25, verificando el contenido real de los diffs y del `.excalidraw` contra `anexos/introduccion.md`, según RC15.  
+  PR: [#34](https://github.com/santimarM/SistemaPedidos/pull/34) - @santimarM (Documentador y Coordinador)
 
 ---
 
@@ -96,7 +99,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#21](https://github.com/santimarM/SistemaPedidos/pull/21) - @santimarM (Modelador de Casos de Uso)
 
 - [fix/rc27-rc29-readme-changelog] Se quitan `Local` y `Cliente` del modelo de dominio en README.md, se corrige el enlace roto al boceto de clases y se traslada el registro de esta sección, según RC27-RC29.  
-  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
+  PR: [#32](https://github.com/santimarM/SistemaPedidos/pull/32) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc15-documentador-code-reviews] Se documentan en `ia/a2/documentador-coordinador.md` 2 code reviews asistidas con IA sobre los fixes RC7-RC10, RC19 y RC22-RC25, según RC15.  
+  PR: [#34](https://github.com/santimarM/SistemaPedidos/pull/34) - @santimarM (Documentador y Coordinador)
 
 ---
 
