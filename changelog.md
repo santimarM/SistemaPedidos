@@ -12,15 +12,17 @@ _Sin cambios pendientes de registrar. Todos los aportes de la Actividad Obligato
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
 
+> **Nota de atribución (RC1/RC2, agregada 2026-09-23):** el historial de commits del repositorio no registra ningún commit de Lautaro Chumacero ni de Sebastian Benitez. El contenido de las PR #14 y #6, señaladas abajo como su aporte, fue commiteado y mergeado en su totalidad por Fernando Molina, sin que exista una reasignación de rol documentada en este changelog al momento de esas entregas. Se deja esta nota de forma explícita porque no se puede verificar participación técnica real de esos dos integrantes en esas dos PRs puntuales.
+
 ### Added
 - [feature/analista-de-requerimientos] Requisitos funcionales y no funcionales iniciales.  
-  PR: [#14](https://github.com/fernandodanielm/SistemaPedidos/pull/14) - Lautaro Chumacero (Analista de requerimientos)
+  PR: [#14](https://github.com/fernandodanielm/SistemaPedidos/pull/14) - Lautaro Chumacero (Analista de requerimientos) — *ver nota de atribución arriba: sin evidencia técnica de commits de Lautaro Chumacero.*
 
 - [feature/modelador-de-casos-de-uso] Casos de uso principales.  
   PR: [#10](https://github.com/fernandodanielm/SistemaPedidos/pull/10) - Santiago Medel (Modelador de casos de uso) - Issue: [#9](https://github.com/fernandodanielm/SistemaPedidos/issues/9)
 
 - [feature/diseñador-de-clases-iniciales] Boceto inicial de clases.  
-  PR: [#6](https://github.com/fernandodanielm/SistemaPedidos/pull/6) - Sebastian Benitez (Diseñador de clases iniciales)
+  PR: [#6](https://github.com/fernandodanielm/SistemaPedidos/pull/6) - Sebastian Benitez (Diseñador de clases iniciales) — *ver nota de atribución arriba: sin evidencia técnica de commits de Sebastian Benitez.*
 
 - [feature/documentador/coordinador] README, anexos, introducción y organización documental.  
   PR: [#12](https://github.com/fernandodanielm/SistemaPedidos/pull/12) - Fernando Molina (Coordinador/Documentador)
@@ -64,6 +66,9 @@ _Sin cambios pendientes de registrar. Todos los aportes de la Actividad Obligato
 
 - [fix/rc33-rc34-eliminar-duplicados] Se eliminan `modelador de caso de uso/casos_de_uso.md` y `analisis-de-requerimientos.md` (no eran entregables solicitados y duplicaban contenido ya consolidado en `anexos/introduccion.md`), y se corrigen sus referencias en README.md y anexos/anexos.md, según RC33-RC34.  
   PR: [#36](https://github.com/santimarM/SistemaPedidos/pull/36) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc1-rc2-nota-atribucion] Se agrega una nota de atribución explícita documentando que el historial de commits no registra participación técnica de Lautaro Chumacero ni de Sebastian Benitez en las PR #14 y #6 respectivamente, según lo requerido en RC1-RC2.  
+  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
 
 ---
 
