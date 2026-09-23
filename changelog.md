@@ -53,6 +53,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [fix/rc15-documentador-code-reviews] Se documentan en `ia/a2/documentador-coordinador.md` 2 code reviews asistidas con IA sobre los fixes RC7-RC10, RC19 y RC22-RC25, verificando el contenido real de los diffs y del `.excalidraw` contra `anexos/introduccion.md`, según RC15.  
   PR: [#34](https://github.com/santimarM/SistemaPedidos/pull/34) - @santimarM (Documentador y Coordinador)
 
+- [fix/rc35-rc36-templates-completos] Se completan `feature-template.md` y `release-template.md` con todos los campos exigidos por la consigna (datos del estudiante, rama, archivos, Issues, checklist, comentarios, integrantes, entregables, comunicación en Slack, LGTM y prohibición de merge directo a master), según RC35-RC36.  
+  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
@@ -103,6 +106,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [fix/rc15-documentador-code-reviews] Se documentan en `ia/a2/documentador-coordinador.md` 2 code reviews asistidas con IA sobre los fixes RC7-RC10, RC19 y RC22-RC25, según RC15.  
   PR: [#34](https://github.com/santimarM/SistemaPedidos/pull/34) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc35-rc36-templates-completos] Se completan los templates de PR feature y release con todos los campos exigidos por la consigna, según RC35-RC36.  
+  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
 
 ---
 
