@@ -29,6 +29,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop.  
   PR: [#50](https://github.com/santimarM/SistemaPedidos/pull/50) - @santimarM (Documentador y Coordinador)
 
+- [feature/doc-coord-repo-update-readme-md] docs: integrar indices de la A2 en README y documentar coordinacion y contingencias.  
+  PR: [#51](https://github.com/santimarM/SistemaPedidos/pull/51) - @santimarM (Documentador y Coordinador) - Issue: [#28](https://github.com/santimarM/SistemaPedidos/issues/28)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
