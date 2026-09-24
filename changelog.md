@@ -84,23 +84,17 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [fix/rc50-rc69-ronda11] fix: reproducir literalmente los titulos de PR en el changelog y actualizar link de PR #40 (RC50-RC69).  
   PR: [#41](https://github.com/santimarM/SistemaPedidos/pull/41) - @santimarM (Documentador y Coordinador)
 
-- [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README como parte real del grupo actual (RC50).  
+- [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README (RC50).  
   PR: [#42](https://github.com/santimarM/SistemaPedidos/pull/42) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc50-matricula-isis] docs: completar matricula de Isis Neith Escalada en README (RC50).  
   PR: [#45](https://github.com/santimarM/SistemaPedidos/pull/45) - @santimarM (Documentador y Coordinador)
 
-- [fix/rc50-rc15-ronda12] fix: composición vigente del grupo en README y evidencia de code reviews (RC50, RC15).  
-  PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
+- [fix/rc50-rc15-ronda12] fix: composicion vigente del grupo en README y evidencia de code reviews (RC50, RC15).  
+  PR: [#46](https://github.com/santimarM/SistemaPedidos/pull/46) - @santimarM (Documentador y Coordinador)
 
-### Evidencia de code reviews asistidas con IA (RC15)
-
-Revisiones realizadas por el rol de Documentador y Coordinador sobre PRs de otros integrantes, verificando el diff real de cada una (no solo su descripción) contra `anexos/introduccion.md`:
-
-1. **PR #22** "fix: corregir boceto inicial de clases (RC7-RC10)" (@neith18): se comparó el commit de merge contra su base y se extrajeron las etiquetas de texto del `.excalidraw` resultante. Se confirmó que `Pedido.prioridad` pasó de `Integer` a `Boolean`, y que aparecen `Usuario`, `Personalizacion`, `RegistroAuditoria` y `Combo` (antes ausentes), sin `Cliente` ni `Local` (fuera de alcance). Veredicto: aprobado, coherente con los requisitos.
-2. **PR #25** "fix: actualizar modelo de dominio (RC19)" y **PR #26** "fix: corregir documentación RC22-RC25" (@neith18): se comparó el diff de `anexos/introduccion.md` en ambos merges. Se confirmó que el texto del modelo de dominio (sección 7) quedó consistente con el diagrama de clases corregido en la PR #22, sin duplicar ni contradecirlo. Veredicto: aprobado.
-
-Nota: estas 2 revisiones ya se habían documentado en un archivo `ia/a2/documentador-coordinador.md`, que fue eliminado de esta release por indicación explícita del docente (RC44, ya que ese archivo correspondía a la Actividad Obligatoria N°2, no a esta release). Se conserva la evidencia aquí, en el changelog de la propia release, para no perderla. Restan 2 revisiones adicionales (mínimo 4 exigido por la consigna de la Actividad N°2) sobre las PRs de Tarjetas CRC y Diagramas de Casos de Uso, a completar en esa actividad.
+- [fix/rc71-rc72-ronda13] fix: enlazar PR #46 y eliminar evidencia de code reviews del changelog (RC71, RC72).  
+  PR: [#47](https://github.com/santimarM/SistemaPedidos/pull/47) - @santimarM (Documentador y Coordinador)
 
 ---
 
