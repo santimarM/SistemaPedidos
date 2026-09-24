@@ -85,6 +85,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#41](https://github.com/santimarM/SistemaPedidos/pull/41) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README como parte real del grupo actual (RC50).  
+  PR: [#42](https://github.com/santimarM/SistemaPedidos/pull/42) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc50-matricula-isis] docs: completar matricula de Isis Neith Escalada en README (RC50).  
   PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
 
 ---
