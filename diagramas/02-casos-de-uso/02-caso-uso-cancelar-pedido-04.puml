@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario de mostrador" as Usuario
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU4 - Cancelar Pedido" as UC4
+  usecase "Registrar en auditoría" as UC4a
+}
+
+Usuario --> UC4
+UC4 .> UC4a : <<include>>
+note right of UC4
+  Solo permitido si el pedido
+  está en Recibido o En preparación
+end note
+@enduml

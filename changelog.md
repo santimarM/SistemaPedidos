@@ -10,6 +10,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/espec-escenarios-casos-uso-add-escenario-1] Agregar escenarios de casos de uso (EC-01 a EC-05).  
   PR: [#30](https://github.com/santimarM/SistemaPedidos/pull/30) - @santimarM (Especialista en Escenarios de Casos de Uso) - Issue: [#29](https://github.com/santimarM/SistemaPedidos/issues/29)
 
+- [feature/modelador-diag-casos-uso-update-use-case-1] Agregar diagramas PlantUML de casos de uso (CU1-CU5).  
+  PR: [#44](https://github.com/santimarM/SistemaPedidos/pull/44) - @santimarM (Modelador de Diagramas de Casos de Uso, asumido por baja de Florencia Ivroud) - Issue: [#43](https://github.com/santimarM/SistemaPedidos/issues/43)
+
 ### Changed
 - [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop.  
   PR: [#50](https://github.com/santimarM/SistemaPedidos/pull/50) - @santimarM (Documentador y Coordinador)
