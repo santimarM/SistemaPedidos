@@ -82,6 +82,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   Commit: [67fd587](https://github.com/santimarM/SistemaPedidos/commit/67fd587f954021db34bfac248351727fa1a5f7e0) - @fernandodanielm (Coordinador/Documentador) — ingresó directo a release/actividad-obligatoria-1 sin PR, según RC41-RC42.
 
 - [fix/rc50-rc69-ronda11] fix: reproducir literalmente los titulos de PR en el changelog y actualizar link de PR #40 (RC50-RC69).  
+  PR: [#41](https://github.com/santimarM/SistemaPedidos/pull/41) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README como parte real del grupo actual (RC50).  
   PR: Pendiente de registrar - @santimarM (Documentador y Coordinador)
 
 ---
