@@ -106,20 +106,19 @@ El MVP incluye la gestión básica de pedidos, la comunicación con cocina, la v
 - El pedido queda en un único estado consistente y visible para todo el negocio.
 
 ### CU4 – Cancelar Pedido
-**Actor(es):** Usuario de mostrador, Encargado
+**Actor(es):** Usuario de mostrador
 
-**Descripción breve:** El pedido se cancela sin eliminar su registro histórico.
+**Descripción breve:** El pedido se cancela sin eliminar su registro histórico, siempre que todavía no esté en estado Listo.
 
 **Flujo principal de eventos:**
 1. El usuario selecciona el pedido a cancelar.
 2. El sistema verifica el estado actual.
-3. Si el pedido está en Recibido o En preparación, la cancelación se autoriza directamente.
-4. Si el pedido está en Listo, requiere la autorización del encargado.
-5. El sistema cambia el estado a Cancelado.
-6. El sistema conserva el registro para auditoría.
+3. El sistema autoriza la cancelación solo si el pedido está en Recibido o En preparación.
+4. El sistema cambia el estado a Cancelado.
+5. El sistema conserva el registro para auditoría.
 
 **Precondiciones:**
-- El pedido no debe estar Entregado.
+- El pedido está en estado Recibido o En preparación.
 
 **Postcondiciones:**
 - El pedido queda en estado Cancelado.
@@ -150,7 +149,7 @@ Un pedido solo puede cambiar de estado siguiendo una secuencia válida:
 - Recibido → En preparación → Listo → Entregado
 - Recibido → Cancelado
 - En preparación → Cancelado
-- Listo → Cancelado con autorización del encargado
+- Listo → no admite cancelación
 - Entregado → no modificable ni cancelable
 
 ## 7. Modelo de dominio inicial
