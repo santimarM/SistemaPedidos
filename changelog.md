@@ -84,13 +84,13 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [fix/rc50-rc69-ronda11] fix: reproducir literalmente los titulos de PR en el changelog y actualizar link de PR #40 (RC50-RC69).  
   PR: [#41](https://github.com/santimarM/SistemaPedidos/pull/41) - @santimarM (Documentador y Coordinador)
 
-- [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README como parte real del grupo actual (RC50).  
+- [fix/rc50-actualizar-integrantes] fix: agregar a Isis Neith Escalada y Florencia Ivroud a la tabla de integrantes del README (RC50).  
   PR: [#42](https://github.com/santimarM/SistemaPedidos/pull/42) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc50-matricula-isis] docs: completar matricula de Isis Neith Escalada en README (RC50).  
   PR: [#45](https://github.com/santimarM/SistemaPedidos/pull/45) - @santimarM (Documentador y Coordinador)
 
-- [fix/rc50-rc15-ronda12] fix: composición vigente del grupo en README y evidencia de code reviews (RC50, RC15).  
+- [fix/rc50-rc15-ronda12] fix: composicion vigente del grupo en README y evidencia de code reviews (RC50, RC15).  
   PR: [#46](https://github.com/santimarM/SistemaPedidos/pull/46) - @santimarM (Documentador y Coordinador)
 
 - [fix/rc71-rc72-ronda13] fix: enlazar PR #46 y eliminar evidencia de code reviews del changelog (RC71, RC72).  
