@@ -10,6 +10,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/espec-escenarios-casos-uso-add-escenario-1] Agregar escenarios de casos de uso (EC-01 a EC-05).  
   PR: [#30](https://github.com/santimarM/SistemaPedidos/pull/30) - @santimarM (Especialista en Escenarios de Casos de Uso) - Issue: [#29](https://github.com/santimarM/SistemaPedidos/issues/29)
 
+### Changed
+- [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop.  
+  PR: [#49](https://github.com/santimarM/SistemaPedidos/pull/49) - @santimarM (Documentador y Coordinador)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
