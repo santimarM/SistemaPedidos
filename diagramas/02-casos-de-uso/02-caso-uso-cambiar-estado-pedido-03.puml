@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Cocina" as Cocina
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU3 - Cambiar Estado del Pedido" as UC3
+  usecase "Validar transición de estado" as UC3a
+  usecase "Bloquear modificaciones al llegar a Listo" as UC3b
+}
+
+Cocina --> UC3
+UC3 .> UC3a : <<include>>
+UC3 .> UC3b : <<include>>
+@enduml

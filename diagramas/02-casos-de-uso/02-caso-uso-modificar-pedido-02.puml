@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario de mostrador" as Usuario
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU2 - Modificar Pedido" as UC2
+  usecase "Recalcular total del pedido" as UC2a
+  usecase "Registrar diferencia de pago" as UC2b
+}
+
+Usuario --> UC2
+UC2 .> UC2a : <<include>>
+UC2b .> UC2 : <<extend>>
+note right of UC2b
+  Solo aplica si el pedido
+  ya tenía un pago registrado
+end note
+@enduml
