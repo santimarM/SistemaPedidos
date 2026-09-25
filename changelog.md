@@ -13,6 +13,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/modelador-diag-casos-uso-update-use-case-1] Agregar diagramas PlantUML de casos de uso (CU1-CU5).  
   PR: [#44](https://github.com/santimarM/SistemaPedidos/pull/44) - @santimarM (Modelador de Diagramas de Casos de Uso, asumido por baja de Florencia Ivroud) - Issue: [#43](https://github.com/santimarM/SistemaPedidos/issues/43)
 
+- [feature/diseniador-tarjetas-crc-add-tarjeta-clase-1] Agregar tarjetas CRC de las clases del boceto.  
+  PR: [#53](https://github.com/santimarM/SistemaPedidos/pull/53) - @neith18 (Diseñadora de Tarjetas CRC) - Issue: [#52](https://github.com/santimarM/SistemaPedidos/issues/52)
+
 ### Changed
 - [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop.  
   PR: [#50](https://github.com/santimarM/SistemaPedidos/pull/50) - @santimarM (Documentador y Coordinador)
