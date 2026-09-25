@@ -10,14 +10,6 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 ## [Release Actividad Obligatoria N°2] - 2026-09-25
 
-> **Contingencias del equipo (Actividad Obligatoria N°2):**
-> - Lautaro Chumacero, Sebastian Benitez y Fernando Molina se dieron de baja de la materia al finalizar la Actividad N°1.
-> - Florencia Ivroud, asignada como Modeladora de Diagramas de Casos de Uso, se dio de baja de la materia. El rol lo asumió Santiago Medel (PR #44).
-> - El grupo quedó con dos integrantes activos: Santiago Medel (Especialista en Escenarios de Casos de Uso, Documentador y Coordinador, y Modelador de Diagramas de Casos de Uso por contingencia) e Isis Neith Escalada (Diseñadora de Tarjetas CRC).
-> - Por la composición reducida, las code reviews del Documentador y Coordinador se realizaron sobre la única PR de otra integrante activa (PR #53), por lo que no se alcanzó el mínimo de 4 reviews.
-> - Aprobaciones de las PRs a `develop`: la #30 y la #51 fueron aprobadas por Isis Neith Escalada; la #44, por Florencia Ivroud, ya dada de baja; la #54 se mergeó sin aprobación por falta de respuesta de la otra integrante activa (desvío documentado en la PR).
-> - Las correcciones de la review de la PR #53 (Tarjetas CRC) las aplicó Santiago Medel en la PR #54 ante la falta de respuesta de Isis Neith Escalada.
-
 ### Added
 - [feature/espec-escenarios-casos-uso-add-escenario-1] Agregar escenarios de casos de uso (EC-01 a EC-05).  
   PR: [#30](https://github.com/santimarM/SistemaPedidos/pull/30) - @santimarM (Especialista en Escenarios de Casos de Uso) - Issue: [#29](https://github.com/santimarM/SistemaPedidos/issues/29)
