@@ -34,6 +34,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [fix/changelog-release-actividad-obligatoria-2] fix: pasar Unreleased a la seccion de release A2 en changelog.  
   PR: [#55](https://github.com/santimarM/SistemaPedidos/pull/55) - @santimarM (Documentador y Coordinador)
 
+- [fix/changelog-quitar-bloque-contingencias] fix: quitar bloque de contingencias del changelog.  
+  PR: [#57](https://github.com/santimarM/SistemaPedidos/pull/57) - @santimarM (Documentador y Coordinador)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
