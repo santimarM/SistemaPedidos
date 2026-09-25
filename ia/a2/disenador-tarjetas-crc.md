@@ -47,3 +47,15 @@ Se realizaron los siguientes ajustes:
 - Se evitó agregar propiedades a `Usuario` que no existen en el boceto. Por este motivo, las responsabilidades de `Usuario` que requieren interactuar con otros objetos no poseen una propiedad propia asociada cuando el modelo no la define.
 - Se revisó la dirección de las colaboraciones. Por ejemplo, `ItemPedido` necesita información de `Personalizacion` para considerar su costo adicional, pero `Personalizacion` no necesita colaborar con `ItemPedido` para conocer su propio costo.
 - Se descartaron responsabilidades, propiedades y colaboraciones que no pudieron justificarse mediante los archivos utilizados como contexto.
+## Corrección posterior por contingencia (PR de corrección de tarjetas CRC)
+
+La code review del Documentador y Coordinador sobre la PR #53 detectó tres problemas: `03-tarjeta-crc-item-pedido.md` quedó vacío, la columna Propiedad de `01-tarjeta-crc-usuario.md` estaba sin completar y el índice `herramientas_agile.md` enlazaba a la carpeta en lugar de a cada tarjeta. Ante la falta de respuesta de la Diseñadora de Tarjetas CRC antes del cierre de la entrega, las correcciones las aplicó Santiago Medel (Documentador y Coordinador), asistido por **Claude Code** (Anthropic) en VS Code.
+
+**Prompt utilizado (resumen):** "Completá la tarjeta CRC de `ItemPedido` respetando la plantilla y el diseño ya documentado en `ia/a2/disenador-tarjetas-crc.md`; completá la columna Propiedad de `Usuario` sin agregarle atributos que no existan en el boceto; y armá el índice de `herramientas_agile.md` con un enlace por tarjeta. Usá solo atributos y relaciones de `01-boceto-inicial.excalidraw` y de `anexos/introduccion.md`."
+
+**Archivos de contexto:** `diagramas/01-diagrama-clases/01-boceto-inicial.excalidraw`, `anexos/introduccion.md`, las tarjetas 02 y 04-09 como referencia de formato, y este mismo archivo.
+
+**Ajustes y criterios aplicados:**
+- La tarjeta de `ItemPedido` se armó siguiendo el diseño ya definido por la Diseñadora en la revisión crítica anterior: una única responsabilidad (determinar el subtotal a partir de `cantidad` y `precioUnitario`, considerando el costo adicional de las personalizaciones) con `Personalizacion` como colaborador. No se agregaron colaboraciones con `Producto` o `Combo` porque `ItemPedido` ya conoce su propio `precioUnitario` y no necesita consultarlos para esa responsabilidad.
+- En `Usuario` se mantuvo el criterio de no agregar atributos inexistentes en el boceto. La columna Propiedad se completó con la propiedad del colaborador que cada responsabilidad utiliza (`Pedido.referenciaRetiro`, `Pedido.estado`, `Pedido.prioridad`, `Pago.monto`), según los casos de uso CU1-CU5.
+- El índice se reescribió con un enlace por tarjeta, siguiendo el ejemplo de la consigna.
