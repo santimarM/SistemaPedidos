@@ -38,6 +38,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/doc-coord-repo-update-readme-md] docs: integrar indices de la A2 en README y documentar coordinacion y contingencias.  
   PR: [#51](https://github.com/santimarM/SistemaPedidos/pull/51) - @santimarM (Documentador y Coordinador) - Issue: [#28](https://github.com/santimarM/SistemaPedidos/issues/28)
 
+### Fixed
+- [fix/changelog-release-actividad-obligatoria-2] fix: pasar Unreleased a la seccion de release A2 en changelog.  
+  PR: [#55](https://github.com/santimarM/SistemaPedidos/pull/55) - @santimarM (Documentador y Coordinador)
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
