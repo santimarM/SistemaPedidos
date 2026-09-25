@@ -16,6 +16,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/diseniador-tarjetas-crc-add-tarjeta-clase-1] Agregar tarjetas CRC de las clases del boceto.  
   PR: [#53](https://github.com/santimarM/SistemaPedidos/pull/53) - @neith18 (Diseñadora de Tarjetas CRC) - Issue: [#52](https://github.com/santimarM/SistemaPedidos/issues/52)
 
+- [feature/diseniador-tarjetas-crc-completar-tarjetas] Completar tarjetas CRC: ItemPedido, propiedades de Usuario e indice.  
+  PR: [#54](https://github.com/santimarM/SistemaPedidos/pull/54) - @santimarM (Diseñador de Tarjetas CRC por contingencia: correcciones de la review de la PR #53 ante la falta de respuesta de @neith18) - Issue: [#52](https://github.com/santimarM/SistemaPedidos/issues/52)
+
 ### Changed
 - [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop.  
   PR: [#50](https://github.com/santimarM/SistemaPedidos/pull/50) - @santimarM (Documentador y Coordinador)
