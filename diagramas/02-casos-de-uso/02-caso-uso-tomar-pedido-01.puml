@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario de mostrador" as Usuario
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU1 - Tomar Pedido" as UC1
+  usecase "Calcular total del pedido" as UC1a
+  usecase "Enviar comanda a cocina" as UC1b
+}
+
+Usuario --> UC1
+UC1 .> UC1a : <<include>>
+UC1 .> UC1b : <<include>>
+@enduml
