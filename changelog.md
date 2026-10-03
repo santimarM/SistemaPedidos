@@ -8,6 +8,46 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 ---
 
+## [Release Actividad Obligatoria N°2] - 2026-09-25
+
+### Added
+- [feature/espec-escenarios-casos-uso-add-escenario-1] Agregar escenarios de casos de uso (EC-01 a EC-05)  
+  PR: [#30](https://github.com/santimarM/SistemaPedidos/pull/30) - @santimarM (Especialista en Escenarios de Casos de Uso) - Issue: [#29](https://github.com/santimarM/SistemaPedidos/issues/29)
+
+- [feature/modelador-diag-casos-uso-update-use-case-1] Agregar diagramas PlantUML de casos de uso (CU1-CU5)  
+  PR: [#44](https://github.com/santimarM/SistemaPedidos/pull/44) - @santimarM (Modelador de Diagramas de Casos de Uso, asumido por baja de Florencia Ivroud) - Issue: [#43](https://github.com/santimarM/SistemaPedidos/issues/43)
+
+- [feature/diseniador-tarjetas-crc-add-tarjeta-clase-1] Agregar tarjetas CRC de las clases del boceto  
+  PR: [#53](https://github.com/santimarM/SistemaPedidos/pull/53) - @neith18 (Diseñadora de Tarjetas CRC) - Issue: [#52](https://github.com/santimarM/SistemaPedidos/issues/52)
+
+- [feature/diseniador-tarjetas-crc-completar-tarjetas] Completar tarjetas CRC: ItemPedido, propiedades de Usuario e indice  
+  PR: [#54](https://github.com/santimarM/SistemaPedidos/pull/54) - @santimarM (Diseñador de Tarjetas CRC por contingencia) - Issue: [#52](https://github.com/santimarM/SistemaPedidos/issues/52)
+
+### Changed
+- [backport/release-actividad-obligatoria-1] backport: integrar release/actividad-obligatoria-1 en develop  
+  PR: [#50](https://github.com/santimarM/SistemaPedidos/pull/50) - @santimarM (Documentador y Coordinador)
+
+- [feature/doc-coord-repo-update-readme-md] docs: integrar indices de la A2 en README y documentar coordinacion y contingencias  
+  PR: [#51](https://github.com/santimarM/SistemaPedidos/pull/51) - @santimarM (Documentador y Coordinador) - Issue: [#28](https://github.com/santimarM/SistemaPedidos/issues/28)
+
+### Fixed
+- [fix/changelog-release-actividad-obligatoria-2] fix: pasar Unreleased a la seccion de release A2 en changelog  
+  PR: [#55](https://github.com/santimarM/SistemaPedidos/pull/55) - @santimarM (Documentador y Coordinador)
+
+- [fix/changelog-quitar-bloque-contingencias] fix: quitar bloque de contingencias del changelog  
+  PR: [#57](https://github.com/santimarM/SistemaPedidos/pull/57) - @santimarM (Documentador y Coordinador)
+
+- [fix/rc-correcciones-release-a2] fix: resuelve RC1 (EC-04), RC2 (UTF-8 en PNG), RC3 (diagramas de casos de uso mejorados), RC4, RC5 y RC6.  
+  PR: [#58](https://github.com/santimarM/SistemaPedidos/pull/58) - @tomx2002-droid (Documentador y Coordinador)
+
+### Limitaciones y contingencias documentadas (RC4, RC5)
+
+- **Code reviews insuficientes (RC4):** La consigna exigía 4 code reviews asistidas con hallazgos concretos. Solo se pudo registrar 1 (PR #53) debido a la composición reducida del grupo y la falta de respuesta de integrantes. Se documenta esta limitación explícitamente y no se presenta el requisito como cumplido.
+
+- **PR #54 mergeada sin aprobación (RC5):** La PR #54 fue fusionada sin la aprobación de otro integrante por falta de respuesta en el plazo. El merge fue excepcional por contingencia. No se realizó revisión posterior por falta de disponibilidad de los integrantes; se deja constancia de la contingencia para su consideración.
+
+---
+
 ## [Release Actividad Obligatoria N°1] - 2026-09-03
 
 ### Added

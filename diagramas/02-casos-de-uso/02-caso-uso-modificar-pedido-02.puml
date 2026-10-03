@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuario de mostrador" as Usuario
+actor "Cocina" as Cocina
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU2 - Modificar Pedido" as UC2
+  usecase "Seleccionar pedido existente" as UC2a
+  usecase "Verificar estado del pedido" as UC2b
+  usecase "Agregar productos" as UC2c
+  usecase "Quitar productos" as UC2d
+  usecase "Recalcular total" as UC2e
+  usecase "Actualizar comanda" as UC2f
+  usecase "Notificar a cocina" as UC2g
+}
+
+Usuario --> UC2
+UC2 .> UC2a : <<include>>
+UC2 .> UC2b : <<include>>
+UC2 .> UC2c : <<extend>>
+UC2 .> UC2d : <<extend>>
+UC2 .> UC2e : <<include>>
+UC2 .> UC2f : <<include>>
+UC2 .> UC2g : <<include>>
+UC2g --> Cocina
+
+note right of UC2
+  Solo se puede modificar si el pedido
+  no está en estado LISTO ni ENTREGADO.
+end note
+@enduml

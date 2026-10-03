@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Cocina" as Cocina
+actor "Usuario de mostrador" as Usuario
+
+rectangle "Sistema de Pedidos" {
+  usecase "CU3 - Cambiar Estado Pedido" as UC3
+  usecase "Marcar como Recibido" as UC3a
+  usecase "Marcar como En Preparación" as UC3b
+  usecase "Marcar como Listo" as UC3c
+  usecase "Marcar como Entregado" as UC3d
+  usecase "Registrar avance en auditoría" as UC3e
+  usecase "Notificar al mostrador" as UC3f
+}
+
+Cocina --> UC3
+Usuario --> UC3d
+UC3 .> UC3a : <<include>>
+UC3 .> UC3b : <<include>>
+UC3 .> UC3c : <<include>>
+UC3 .> UC3d : <<include>>
+UC3 .> UC3e : <<include>>
+UC3 .> UC3f : <<include>>
+UC3f --> Usuario
+@enduml
