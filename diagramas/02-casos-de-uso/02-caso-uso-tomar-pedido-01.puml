@@ -3,14 +3,37 @@ left to right direction
 skinparam packageStyle rectangle
 
 actor "Usuario de mostrador" as Usuario
+actor "Cocina" as Cocina
 
 rectangle "Sistema de Pedidos" {
   usecase "CU1 - Tomar Pedido" as UC1
-  usecase "Calcular total del pedido" as UC1a
-  usecase "Enviar comanda a cocina" as UC1b
+  usecase "Seleccionar productos" as UC1a
+  usecase "Personalizar producto" as UC1b
+  usecase "Calcular total del pedido" as UC1c
+  usecase "Confirmar pedido" as UC1d
+  usecase "Seleccionar forma de pago" as UC1e
+  usecase "Emitir comanda" as UC1f
+  usecase "Enviar comanda a cocina" as UC1g
 }
 
 Usuario --> UC1
 UC1 .> UC1a : <<include>>
-UC1 .> UC1b : <<include>>
+UC1 .> UC1b : <<extend>>
+UC1 .> UC1c : <<include>>
+UC1 .> UC1d : <<include>>
+UC1 .> UC1e : <<include>>
+UC1 .> UC1f : <<include>>
+UC1 .> UC1g : <<include>>
+UC1g --> Cocina
+
+note right of UC1
+  Pasos del escenario EC-01:
+  1. Seleccionar productos
+  2. Personalizar (opcional)
+  3. Calcular total
+  4. Confirmar pedido
+  5. Seleccionar pago
+  6. Emitir comanda
+  7. Enviar a cocina
+end note
 @enduml
