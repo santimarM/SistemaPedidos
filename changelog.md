@@ -36,13 +36,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [fix/changelog-quitar-bloque-contingencias] fix: quitar bloque de contingencias del changelog  
   PR: [#57](https://github.com/santimarM/SistemaPedidos/pull/57) - @santimarM (Documentador y Coordinador)
-  
-  - [fix/rc-correcciones-release-a2] fix: resuelve RC1 (EC-04), RC2 (UTF-8 en PNG), RC3 (diagramas de casos de uso mejorados), RC4, RC5 y RC6.  
-  PR: [#58](https://github.com/santimarM/SistemaPedidos/pull/58) - @tomx2002-droid (Documentador y Coordinador)
 
 - [fix/rc-correcciones-release-a2] fix: resuelve RC1 (EC-04), RC2 (UTF-8 en PNG), RC3 (diagramas de casos de uso mejorados), RC4, RC5 y RC6.  
   PR: [#58](https://github.com/santimarM/SistemaPedidos/pull/58) - @tomx2002-droid (Documentador y Coordinador)
-  
+
 ### Limitaciones y contingencias documentadas (RC4, RC5)
 
 - **Code reviews insuficientes (RC4):** La consigna exigía 4 code reviews asistidas con hallazgos concretos. Solo se pudo registrar 1 (PR #53) debido a la composición reducida del grupo y la falta de respuesta de integrantes. Se documenta esta limitación explícitamente y no se presenta el requisito como cumplido.
