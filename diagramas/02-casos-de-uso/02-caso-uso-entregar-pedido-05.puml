@@ -3,12 +3,28 @@ left to right direction
 skinparam packageStyle rectangle
 
 actor "Usuario de mostrador" as Usuario
+actor "Cliente" as Cliente
 
 rectangle "Sistema de Pedidos" {
   usecase "CU5 - Entregar Pedido" as UC5
-  usecase "Buscar pedido por número o referencia" as UC5a
+  usecase "Solicitar referencia de retiro" as UC5a
+  usecase "Verificar referencia" as UC5b
+  usecase "Registrar entrega" as UC5c
+  usecase "Cambiar estado a Entregado" as UC5d
+  usecase "Registrar en auditoría" as UC5e
 }
 
 Usuario --> UC5
+Cliente --> UC5
 UC5 .> UC5a : <<include>>
+UC5 .> UC5b : <<include>>
+UC5 .> UC5c : <<include>>
+UC5 .> UC5d : <<include>>
+UC5 .> UC5e : <<include>>
+
+note right of UC5b
+  Se usa la referencia de retiro
+  entregada al cliente al confirmar
+  el pedido.
+end note
 @enduml
